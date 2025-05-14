@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1903555458fcae34fa4f89f40d604fb7, type: 3}
+  m_Name: FeatherDialogue
+  m_EditorClassIdentifier: 
+  npcName: Plant
+  npcPortrait: {fileID: 21300000, guid: a7cea81b914a89d42b3e15ebe65c8c16, type: 3}
+  dialogueLines:
+  - Well well well, I've been waiting for you!
+  - I heard that there's a great race underway and just had to see!
+  - No no, a winner has not been declared yet!
+  - 'You still have a chance. '
+  - Yes, and you're probably a great swimmer so you're essentially guaranteed a win!
+  - You can't swim?! What was your plan?
+  - I guess you could try jumping across the lily pads.
+  - 'But you''ll probably need a double jump for that. '
+  - 'Which I can help you with! '
+  - Something like that...
+  - " \u2666 \u263C \u2665 \u266A  \u2663 \u266B \u2660 \u2248"
+  - What's that look for? You should be light as a feather and able to double jump
+    now!
+  - Oh you didn't know? That'll be $1,000,000.
+  - I'm just kidding.
+  - 'Just let me know if you have any strange side effects. '
+  - ... I meant like a headache or nausea.
+  - 'I''m going to try and escape this painfully awkward conversation, good luck! '
+  - 'I''m rooting for you, good luck! '
+  endDialogueLines: 000000000000000000000000000000000101
+  typingSpeed: 0.05
+  autoProgressLines: 000001000000010100010100010100000000
+  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 0
+    choices:
+    - 'You''ve been waiting for me? '
+    - 'I don''t know you. '
+    nextDialogueIndexes: 0100000001000000
+  - dialogueIndex: 1
+    choices:
+    - 'Well thanks for the support, but at this point I''m just looking for a participation
+      medal. '
+    - 'Has the rabbit won yet? '
+    nextDialogueIndexes: 0200000002000000
+  - dialogueIndex: 3
+    choices:
+    - Oh really?
+    - 'Well I better be off then! '
+    nextDialogueIndexes: 0400000004000000
+  - dialogueIndex: 4
+    choices:
+    - I actually can't swim... I'm a tortoise, not a turtle.
+    - Yeah... About that...
+    nextDialogueIndexes: 0500000005000000
+  - dialogueIndex: 5
+    choices:
+    - I was just kind of going to wing it.
+    - I don't know to be honest, things have worked out well for me so far
+    nextDialogueIndexes: 0600000006000000
+  - dialogueIndex: 8
+    choices:
+    - 'What are you, like a sorcerer or something? '
+    - 'And how are you going to make me more athletic in the next 10 seconds? '
+    nextDialogueIndexes: 090000000a000000
+  - dialogueIndex: 10
+    choices:
+    - ............
+    nextDialogueIndexes: 0b000000
+  - dialogueIndex: 11
+    choices:
+    - 'Well thanks, but what''ll this cost me? '
+    - 'That was weird. '
+    nextDialogueIndexes: 0c0000000e000000
+  - dialogueIndex: 14
+    choices:
+    - 'What do you mean?? I don''t want feathers sprouting from my head! '
+    - 'Okay I will, but for now I''ve got a race to win! '
+    nextDialogueIndexes: 0f00000011000000
+  - dialogueIndex: 15
+    choices:
+    - 'Oh... I''ll let you know, but I really should be off! '
+    - 'Not that your feather hair looks bad or anything. '
+    nextDialogueIndexes: 1100000010000000
+  nextSceneLines: 000000000000000000000000000000000000
+  healDialogueLines: 000000000000000000000000000000000000

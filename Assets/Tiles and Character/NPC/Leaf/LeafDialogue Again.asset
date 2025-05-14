@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1903555458fcae34fa4f89f40d604fb7, type: 3}
+  m_Name: LeafDialogue Again
+  m_EditorClassIdentifier: 
+  npcName: Leaf
+  npcPortrait: {fileID: 21300000, guid: dcb28149a8d2be54985a94a9704cde93, type: 3}
+  dialogueLines:
+  - 'Yay, we made it in one piece! '
+  - Oh no, you weren't in any danger.
+  - I've made that trip many times.
+  - Well only twice, and those angry clouds weren't there before...
+  - 'But we''re here! '
+  - 'I''m glad I was able to help. '
+  - 'Well, I''m headed to my family tree now. '
+  - 'Go and win this race! '
+  endDialogueLines: 0000000000000001
+  typingSpeed: 0.05
+  autoProgressLines: 0001010100010100
+  autoProgressDelay: 0.5
+  choices:
+  - dialogueIndex: 0
+    choices:
+    - In one piece?!
+    - Yes, thanks again for the ride!
+    nextDialogueIndexes: 0100000005000000
+  - dialogueIndex: 4
+    choices:
+    - Okay, thanks I guess...
+    - 'I''ll never do that again, but I will say it was a little fun. '
+    nextDialogueIndexes: 0500000006000000
+  nextSceneLines: 0000000000000000
+  healDialogueLines: 0000000000000000

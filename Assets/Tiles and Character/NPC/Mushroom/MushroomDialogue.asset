@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1903555458fcae34fa4f89f40d604fb7, type: 3}
+  m_Name: MushroomDialogue
+  m_EditorClassIdentifier: 
+  npcName: Mushroom
+  npcPortrait: {fileID: 21300000, guid: 4b1ec94cb799dbf4bbce0bbdf6c04c76, type: 3}
+  dialogueLines:
+  - Sorry, I've not had the best morning and may be a little irritable. How are you?
+  - Yes, there was a rabbit causing a real ruckus this morning.
+  - ...
+  - Yes, I saw that FOOL. He passed by here a while ago.
+  - 'He stomped on by, waking up the entire forest and bragging about how he''s going
+    to win a race. '
+  - Wait, are you his opponent??
+  - 'Tsk tsk I don''t know if you have a chance to be honest '
+  - BUT I detest that rabbit and want to help you win.
+  - If you jump on my head (It's not as bad as it seems) you'll get an extra bounce.
+  - 'Yeah, anything I can do to stop that doofus from winning.  '
+  - I'll alert all of the other mushrooms in the forest so they can help too.
+  - Now go and pass that finish line first!
+  endDialogueLines: 000000000000000000000001
+  typingSpeed: 0.05
+  autoProgressLines: 000001010100010100010100
+  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 0
+    choices:
+    - Just fine, have you seen a rabbit run on by recntly?
+    - You've not had a good morning?
+    nextDialogueIndexes: 0200000001000000
+  - dialogueIndex: 1
+    choices:
+    - A rabbit?
+    nextDialogueIndexes: 04000000
+  - dialogueIndex: 5
+    choices:
+    - Why do I sense disapproval in your tone?
+    - Yes...
+    nextDialogueIndexes: 0600000006000000
+  - dialogueIndex: 8
+    choices:
+    - Oh that's a little strange but thank you!
+    - I'll take all the help I can get.
+    nextDialogueIndexes: 0900000009000000
+  nextSceneLines: 
+  healDialogueLines: 

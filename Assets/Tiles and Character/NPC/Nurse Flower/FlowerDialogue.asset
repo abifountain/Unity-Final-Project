@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1903555458fcae34fa4f89f40d604fb7, type: 3}
+  m_Name: FlowerDialogue
+  m_EditorClassIdentifier: 
+  npcName: Flower
+  npcPortrait: {fileID: 21300000, guid: 0a503e6aaed82f644a0aa2a8f0cae2f1, type: 3}
+  dialogueLines:
+  - 'Hi there! How are you on this fine day? '
+  - Oh I'm fantastic!
+  - Headed up the mountain to tend to a patient.
+  - Yes, I'm a nurse! Do you need healing?
+  - 'Oh no! I''ll get you all patched up. '
+  - Of course! At least you didn't take an arrow to the knee.
+  - 'That would''ve been disastrous. '
+  - 'In the future, if you need healing... '
+  - 'Look for my family! Nursing is the family profession. '
+  - 'Well, I''m off now, good luck! '
+  - 'Okay, farewell! '
+  - I really do have to go now, bye!
+  endDialogueLines: 000000000000000000010101
+  typingSpeed: 0.05
+  autoProgressLines: 000100000001010100010000
+  autoProgressDelay: 1.5
+  choices:
+  - dialogueIndex: 0
+    choices:
+    - 'Not doing too bad, and yourself? '
+    - Sorry, I'm in a rush and have to go!
+    nextDialogueIndexes: 010000000a000000
+  - dialogueIndex: 2
+    choices:
+    - Patient?
+    - 'Well, good luck with that! '
+    nextDialogueIndexes: 030000000a000000
+  - dialogueIndex: 3
+    choices:
+    - 'Yes, please! '
+    - 'No, I''m okay. '
+    nextDialogueIndexes: 0400000007000000
+  - dialogueIndex: 4
+    choices:
+    - 'Thank you! '
+    nextDialogueIndexes: 05000000
+  - dialogueIndex: 8
+    choices:
+    - That's good to know, thank you!
+    - I'm trying to do a no damage speedrun though.
+    nextDialogueIndexes: 0900000009000000
+  nextSceneLines: 000000000000000000000000
+  healDialogueLines: 000000000000000000010101
